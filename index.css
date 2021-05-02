@@ -105,6 +105,8 @@ nav {
     top: 0;
     height: 100vh;
     max-width: 300px;
+    transform: translateX(-100%);
+    transition: transform .3s;
 }
 
 nav ul {
